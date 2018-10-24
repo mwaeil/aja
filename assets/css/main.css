@@ -1,0 +1,75 @@
+#mynav .nav-item.active,.nav-item.active > a{
+     color: #1C9DC2!important;
+  }
+
+ #content{
+     margin-top: 83.6px;
+ }
+
+ .img-slide{
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+    filter: blur(10px);
+}
+.img-slide-con{
+    width: 100vw;
+    height: 50vh;
+}
+
+body{
+    background: #003054;
+    color: white;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #035797ad; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #004b85; 
+}
+
+#dialog{
+    display: none;
+}
+
+
+
+.bg-transparent{
+    background: rgba(3, 2, 2, 0.50)!important;
+}
+
+.rounded-border{
+    border-radius:10px;
+}
+
+.carpentry, .carpentry > * {
+    cursor: url("./cursor/hammer.png"), auto!important;
+}
+
+.plumbing, .plumbing > *  {
+    cursor: url("./cursor/tubo.png"), auto;
+}
+.electrical, .electrical > * {
+    cursor: url("./cursor/plug.png"), auto;
+}
